@@ -6,7 +6,7 @@ namespace Project1{
     {
         static void Main()
         {
-
+            Console.WriteLine(Smallestmultiple(20));
             Console.ReadKey();
         }
 
