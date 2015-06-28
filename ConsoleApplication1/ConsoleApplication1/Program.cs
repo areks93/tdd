@@ -10,10 +10,23 @@ namespace Project1{
             Console.ReadKey();
         }
 
+
         // method that find number that can be divided by all divisors
         public static long Smallestmultiple(int maxDivisor)
         {
+            long dividedNumber = 0;
+            bool dividable = false;
 
+            while (dividable == false)
+            {
+                dividedNumber += maxDivisor;
+                dividable = CheckIfDividable(dividedNumber, maxDivisor);
+
+                if (dividable == true)
+                {
+                    return (dividedNumber);
+                }
+            }
             return 0;
         }
 
