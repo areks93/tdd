@@ -11,7 +11,16 @@ namespace Project1{
         }
 
 
-        // method that find number that can be divided by all divisors
+        // Public: method that find number that can be divided by all divisors
+        //
+        // maxDividor - the highest divisor
+        //
+        // Examples
+        //
+        //   Smallestmultiple(20)
+        //   // => 232792560
+        //
+        // Returns the lowest number that can be divided by numbers from 1 to maxDivisor.
         public static long Smallestmultiple(int maxDivisor)
         {
             long dividedNumber = 0;
@@ -47,4 +56,6 @@ namespace Project1{
             return true;
         }
     }
+
+
 }
