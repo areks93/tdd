@@ -16,5 +16,13 @@ namespace UnitTestProject1
             Assert.IsTrue(b);
 
         }
+        [TestMethod]
+        public void TestMethod2()
+        {
+            long b = Program.Smallestmultiple(20);
+            long testValue = 232792560;
+            Assert.AreEqual(b, testValue);
+        }
+
     }
 }

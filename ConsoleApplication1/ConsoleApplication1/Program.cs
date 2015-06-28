@@ -10,6 +10,13 @@ namespace Project1{
             Console.ReadKey();
         }
 
+        // method that find number that can be divided by all divisors
+        public static long Smallestmultiple(int maxDivisor)
+        {
+
+            return 0;
+        }
+
 
 
 
