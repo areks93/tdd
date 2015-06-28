@@ -11,7 +11,6 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Program p = new Program();
             bool b = Program.CheckIfDividable(60, 4);
             Assert.IsTrue(b);
 
